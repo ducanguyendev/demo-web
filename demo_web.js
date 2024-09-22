@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 // Dùng body-parser để phân tích JSON
 app.use(bodyParser.json());
 
-// Giả lập cơ sở dữ liệu người dùng
+// Giả lập cơ sở dữ liệu người dùng oke nhéo
 const users = [
     { username: 'admin', password: '123456' },
     { username: 'user', password: 'password' }
